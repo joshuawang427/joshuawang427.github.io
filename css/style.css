@@ -1,0 +1,30 @@
+p{
+ 
+font-size: 40px;
+
+}
+body {
+    padding-top: 130px;
+}
+.red  {background-color:rgb(104,244,66);
+text-align:center;
+}
+.b{background-color:rgb(66,235,244); 
+text-align:center;}
+.c{background-color:rgb(233,255,40);
+text-align:center;}
+.h{background-color:rgb(174,61,255);
+text-align:center;}
+img{
+	width: 100%;
+}
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
